@@ -1,0 +1,6 @@
+cp=Product.objects.create
+cp(description="phone case", price = 9.99)
+cp(description ="key chain", price = 1.99)
+cp(description ="popup pop", price = 10.99)
+
+Product.objects.all()
